@@ -25,8 +25,7 @@ import java.util.Set;
 public class MetodosTarea7c {
 
     //método para leer el fichero de la raíz
-    public static List<String> leerFichero() {
-        String fichero = "personas.csv";
+    public static List<String> leerFichero(String fichero) {
         List<String> lineas = new ArrayList<>();
 
         try {

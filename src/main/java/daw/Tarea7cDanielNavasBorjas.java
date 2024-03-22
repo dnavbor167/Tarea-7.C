@@ -38,7 +38,7 @@ public class Tarea7cDanielNavasBorjas {
 
     //método para pasar la lista de String a lista de personas
     public static List<Persona> listaObjetoPersona() {
-        List<String> lineas = leerFichero();
+        List<String> lineas = leerFichero("personas.csv");
         //creo la lista que voy a devolver
         List<Persona> persona = new ArrayList<>();
         for (int i = 0; i < lineas.size(); i++) {
