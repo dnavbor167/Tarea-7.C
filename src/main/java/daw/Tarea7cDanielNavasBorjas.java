@@ -97,6 +97,7 @@ public class Tarea7cDanielNavasBorjas {
 
     //método para contar cuantos géneros hay
     public static Map<String, Integer> contadorGeneros(List<Persona> lista) {
+        //SE PUEDE USAR TAMBIÉN EL MAP.GETORDEFAULT()
         Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < lista.size(); i++) {
             if (map.containsKey(lista.get(i).genero())) {
